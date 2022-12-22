@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &263407345426425621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263407345426425627}
+  - component: {fileID: 263407345426425620}
+  m_Layer: 0
+  m_Name: BloodGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263407345426425627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263407345426425621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.6141486, y: 9.820077, z: 0.4055927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263407345426425620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263407345426425621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af77d9e99e94f5144ada357c86fb5c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodstains:
+  - {fileID: 4348412643751683911, guid: 32cd4804dfc527043a95e10e394b78fc, type: 3}
+  - {fileID: 4348412643751683911, guid: bdee3a32b69830a46b97b61c2fe7f93e, type: 3}
+  - {fileID: 4348412643751683911, guid: b85b6eafdb9c80940bb474b34261a611, type: 3}
+  - {fileID: 4348412643751683911, guid: ade02ee7cc792f04ead5c80de94004c2, type: 3}
+  - {fileID: 4348412643751683911, guid: d335d7601b12d0447a69300e6ffbfaa1, type: 3}
+  - {fileID: 4348412643751683911, guid: 7c678d1aafbc46b48bd4bf6dac218159, type: 3}
+  - {fileID: 4348412643751683911, guid: 725dd90ade7624743b1a3ed5fe84e556, type: 3}
+  - {fileID: 4348412643751683911, guid: 7fbc3c2838d525049b4c5195b32880f4, type: 3}
+  - {fileID: 4348412643751683911, guid: 0050f7751f5e71c4aa396c99e4299329, type: 3}
+  heavyBloodstains: []
